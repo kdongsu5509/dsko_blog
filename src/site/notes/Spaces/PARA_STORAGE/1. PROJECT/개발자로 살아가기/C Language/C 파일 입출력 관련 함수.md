@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/spaces/para-storage/1-project//c-language/c/","tags":["C_language"]}
+{"dg-publish":true,"permalink":"/spaces/para-storage/1-project//c-language/c/","tags":["C_language","gardenEntry"]}
 ---
 
 1. **fopen()**: 파일을 열 때 사용되는 함수로, 파일의 경로 및 이름과 열기 모드를 지정합니다.
