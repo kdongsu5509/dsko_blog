@@ -1,0 +1,1 @@
+[](<a.count(elem)	O(n)	elem 요소의 개수를 리턴한다.>)

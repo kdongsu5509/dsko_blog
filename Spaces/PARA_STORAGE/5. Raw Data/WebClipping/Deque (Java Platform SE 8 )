@@ -1,0 +1,111 @@
+---
+_links : 
+tags : #
+---
+Modifier and Type Method and Description `boolean` `[add](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#add-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element into the queue represented by this deque (in other words, at the tail of this deque) if it is possible to do so immediately without violating capacity restrictions, returning `true` upon success and throwing an `IllegalStateException` if no space is currently available.
+
+`void` `[addFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#addFirst-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element at the front of this deque if it is possible to do so immediately without violating capacity restrictions, throwing an `IllegalStateException` if no space is currently available.
+
+`void` `[addLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#addLast-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element at the end of this deque if it is possible to do so immediately without violating capacity restrictions, throwing an `IllegalStateException` if no space is currently available.
+
+`boolean` `[contains](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#contains-java.lang.Object-)([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html "class in java.lang") o)`
+
+Returns `true` if this deque contains the specified element.
+
+`[Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html "interface in java.util")<[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")>` `[descendingIterator](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#descendingIterator--)()`
+
+Returns an iterator over the elements in this deque in reverse sequential order.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[element](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#element--)()`
+
+Retrieves, but does not remove, the head of the queue represented by this deque (in other words, the first element of this deque).
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[getFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#getFirst--)()`
+
+Retrieves, but does not remove, the first element of this deque.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[getLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#getLast--)()`
+
+Retrieves, but does not remove, the last element of this deque.
+
+`[Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html "interface in java.util")<[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")>` `[iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#iterator--)()`
+
+Returns an iterator over the elements in this deque in proper sequence.
+
+`boolean` `[offer](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#offer-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element into the queue represented by this deque (in other words, at the tail of this deque) if it is possible to do so immediately without violating capacity restrictions, returning `true` upon success and `false` if no space is currently available.
+
+`boolean` `[offerFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#offerFirst-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element at the front of this deque unless it would violate capacity restrictions.
+
+`boolean` `[offerLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#offerLast-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Inserts the specified element at the end of this deque unless it would violate capacity restrictions.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[peek](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#peek--)()`
+
+Retrieves, but does not remove, the head of the queue represented by this deque (in other words, the first element of this deque), or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[peekFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#peekFirst--)()`
+
+Retrieves, but does not remove, the first element of this deque, or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[peekLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#peekLast--)()`
+
+Retrieves, but does not remove, the last element of this deque, or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[poll](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#poll--)()`
+
+Retrieves and removes the head of the queue represented by this deque (in other words, the first element of this deque), or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[pollFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#pollFirst--)()`
+
+Retrieves and removes the first element of this deque, or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[pollLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#pollLast--)()`
+
+Retrieves and removes the last element of this deque, or returns `null` if this deque is empty.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[pop](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#pop--)()`
+
+Pops an element from the stack represented by this deque.
+
+`void` `[push](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#push-E-)([E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque") e)`
+
+Pushes an element onto the stack represented by this deque (in other words, at the head of this deque) if it is possible to do so immediately without violating capacity restrictions, throwing an `IllegalStateException` if no space is currently available.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[remove](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#remove--)()`
+
+Retrieves and removes the head of the queue represented by this deque (in other words, the first element of this deque).
+
+`boolean` `[remove](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#remove-java.lang.Object-)([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html "class in java.lang") o)`
+
+Removes the first occurrence of the specified element from this deque.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[removeFirst](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#removeFirst--)()`
+
+Retrieves and removes the first element of this deque.
+
+`boolean` `[removeFirstOccurrence](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#removeFirstOccurrence-java.lang.Object-)([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html "class in java.lang") o)`
+
+Removes the first occurrence of the specified element from this deque.
+
+`[E](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html "type parameter in Deque")` `[removeLast](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#removeLast--)()`
+
+Retrieves and removes the last element of this deque.
+
+`boolean` `[removeLastOccurrence](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#removeLastOccurrence-java.lang.Object-)([Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html "class in java.lang") o)`
+
+Removes the last occurrence of the specified element from this deque.
+
+`int` `[size](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html#size--)()`
+
+Returns the number of elements in this deque.
