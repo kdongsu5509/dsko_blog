@@ -19,7 +19,6 @@
   <div class="parallel-section">
     # Java 맛있게 사용하기
     [[Spaces/PARA_STORAGE/PDF를 출력하기 with pdfbox\|PDF를 출력하기 with pdfbox]]
-    이거 Study Log 랑 Java 맛있게 사용하기 병렬 배치하고 싶은데 마크다운으로 어떻게 하는지 모르겠어
   </div>
 </div>
 
