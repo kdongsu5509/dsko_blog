@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/spaces/para-storage/1-project/java/java/"}
 ---
 
-[LV2_할인행사_프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/131127?language=java)
-를 보면서 맛보자.
+LV2_할인행사_프로그래머스를 보면서 보면 좋음.
 
 ```java
 import java.util.Arrays;
@@ -92,7 +91,6 @@ public class Solution {
 }
 ```
 - 여기서는 Object.clone()을 이용해 shallowCopy를 진행했습니다. 그러나 프로그래머스에서 이 코드를 진행시켜보면 정답으로 처리됩니다! -> Why?
-- [Object.clone() 관련 java docs](<https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#clone()>)
 - Summarize
 	- 관례적으로 Object.clone()은 원본과 독립적이기 때문이다!!
 	- But, Python과 같은 것에서는 다름.
