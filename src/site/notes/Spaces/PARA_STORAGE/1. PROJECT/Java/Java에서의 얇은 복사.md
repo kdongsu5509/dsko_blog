@@ -97,6 +97,3 @@ public class Solution {
 	- 관례적으로 Object.clone()은 원본과 독립적이기 때문이다!!
 	- But, Python과 같은 것에서는 다름.
 		- Python3에서는 shallowCopy시 같이 변하니, deepCopy를 구현하자.
-
-###### 함께 보면 좋을 자료
-[[Spaces/PARA_STORAGE/1. PROJECT/개발자로 살아가기/Python/Copy at python\|Copy at python]]
