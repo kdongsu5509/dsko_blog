@@ -3,7 +3,7 @@
 ---
 
 # Study Log
-[[Spaces/PARA_STORAGE/1. PROJECT/MYSQL/MYSQL MAIN\|MYSQL MAIN]]
+[[Spaces/PARA_STORAGE/1. PROJECT/MYSQL/0-1.MYSQL MAIN\|0-1.MYSQL MAIN]]
 [[Spaces/PARA_STORAGE/1. PROJECT/Flutter/FlutterMain\|FlutterMain]]
 
 # 개인 프로젝트 건달
