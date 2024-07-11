@@ -100,8 +100,6 @@ backgroundColor : Color(0xff112233);
 	- ff -> 투명도
 	- 112233 : 16진수 hex code
 
-\
-
 ---
 ### column 위젯 사용법
 - Scaffold의 body에 Column 사용 -> 위젯 여러 개 입력 가능
